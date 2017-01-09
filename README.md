@@ -305,6 +305,6 @@ If you'd like to know more, here are some links:
 - [Moogi](http://moogi.co/), a movie search engine, built using Grakn.
 - [haskell-graql](http://github.com/aelred/haskell-graql/), the repo for
   `haskell-graql` which is much more fully-featured than this example.
-- [Learn You A Haskell](http://learnyouahaskell.com/), a great book that
-  teaches you the basics of Haskell. If you could follow this blog post, you'll
-  have no trouble with this!
+- [Learn You A Haskell](http://learnyouahaskell.com/), a great (and free) book
+  that teaches you the basics of Haskell. If you could follow this blog post,
+  you'll have no trouble with this!
