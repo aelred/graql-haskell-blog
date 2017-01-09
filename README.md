@@ -1,3 +1,11 @@
+This blog post introduces haskell-graql, which is a library that lets you interface with the Grakn knowledge graph using Haskell. You can build Graql queries, send them to the database and receive results.
+
+This is ideal for applications like data science - with Grakn as the database, Haskell for data processing and Graql as the intermediary between the two.
+
+In this blog post you'll get a quick introduction to the Graql query language and to Haskell, no prior knowledge required!
+
+## Learn You A Graql
+
 Ever since I read [Learn You A Haskell](http://learnyouahaskell.com/) I've been
 looking for a chance to try out functional programming "for real".
 
@@ -14,15 +22,11 @@ a Python and R driver, but we needed more! So I give you:
 interface with the Grakn knowledge graph using Haskell. You can build Graql
 queries, send them to the database and receive results.
 
-This is ideal for applications like data science - with Grakn as the database,
-Haskell for data processing and Graql as the intermediary between the two.
-
-In this blog post you'll get a quick introduction to the Graql query language
-and to Haskell, no prior knowledge required! If you want to try running the
-examples, the blog post itself is also valid Haskell code and can be found
-[here](http://github.com/aelred/haskell-graql-blog) in the file `README.md`.
-You'll need to install [Stack](https://www.haskellstack.org/) and then run
-`stack ghci` to load the example.
+If you want to try running the examples, the blog post itself is also valid
+Haskell code and can be found [here](http://github.com/aelred/haskell-graql-blog)
+in the file `README.md`. You'll need to install
+[Stack](https://www.haskellstack.org/) and then run `stack ghci` to load the
+example.
 
 For `haskell-graql` a lot of the work was already done for me - we have a REPL,
 `graql.sh` (the Graql shell) that can be passed a query string and will output
