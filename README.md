@@ -84,7 +84,7 @@ data PaymentInfo = CreditCard Int String | PayPal String
 We can make instances of `PaymentInfo` like so:
 
 ```haskell
-myCreditCard = CreditCard 12345678 "Felix Chapman"
+myCreditCard = CreditCard 12345678 "Felix"
 myPayPal = PayPal "felix@me.co.uk"
 ```
 
@@ -95,7 +95,7 @@ constructor to make a `PaymentInfo` instance, providing only a `String`.
 This is basically the same as the Java:
 
 ```java
-PaymentInfo myCreditCard = new CreditCard(12345678, "Felix Chapman");
+PaymentInfo myCreditCard = new CreditCard(12345678, "Felix");
 PaymentInfo myPayPal = new PayPal("felix@me.co.uk");
 ```
 
@@ -131,7 +131,7 @@ This all maps pretty neatly to the Haskell type system:
 
 > *variables* and *names* are just strings.
 
-These can be modeled with types containing a single `String` field:
+These can be modelled with types containing a single `String` field:
 
 ```haskell
 data Var = Var String
