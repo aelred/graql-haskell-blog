@@ -14,7 +14,7 @@ library
 
 test-suite test
   type:                exitcode-stdio-1.0
-  main-is:             Test.hs
+  main-is:             Test.lhs
   build-depends:       base >= 4.7 && < 5
                      , markdown-unlit
                      , HUnit
