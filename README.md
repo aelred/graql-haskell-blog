@@ -293,3 +293,14 @@ MatchQuery query = graph.graql().match(
 ```
 
 I'd say they're fairly comparable!
+
+This is only scratching the surface of the power of both Haskell and Graql.
+If you'd like to know more, here are some links:
+
+- [Grakn Labs](http://grakn.ai/), where Grakn and Graql are developed.
+- [Moogi](http://moogi.co/), a movie search engine, built using Grakn.
+- [haskell-graql](http://github.com/aelred/haskell-graql/), the repo for
+  `haskell-graql` which is much more fully-featured than this example.
+- [Learn You A Haskell](http://learnyouahaskell.com/), a great book that
+  teaches you the basics of Haskell. If you could follow this blog post, you'll
+  have no trouble with this!
