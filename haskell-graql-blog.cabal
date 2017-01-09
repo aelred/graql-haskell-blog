@@ -11,3 +11,13 @@ library
                      , markdown-unlit
   default-language:    Haskell2010
   ghc-options:         -pgmL markdown-unlit
+
+test-suite test
+  type:                exitcode-stdio-1.0
+  main-is:             Test.hs
+  build-depends:       base >= 4.7 && < 5
+                     , markdown-unlit
+                     , HUnit
+  default-language:    Haskell2010
+  ghc-options:         -pgmL markdown-unlit -main-is Test
+  other-modules:       DataTypes
