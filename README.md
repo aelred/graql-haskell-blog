@@ -123,7 +123,7 @@ A *match query* is comprised of *patterns*.  In this example our *patterns* are
 example, `$x isa person, has first-name "Alice"` is comprised of two
 *properties*: `isa person` and `has first-name "Alice"`.
 
-*variables* and *names* are just strings. Variables are displayed with a
+*variables* and *names* are strings. Variables are displayed with a
 prefixed `$`.
 
 You can add a *select* statement after a *match query* and the result is also a
@@ -133,7 +133,7 @@ You can add a *select* statement after a *match query* and the result is also a
 
 This all maps pretty neatly to the Haskell type system:
 
-> *variables* and *names* are just strings.
+> *variables* and *names* are strings.
 
 These can be modelled with types containing a single `String` field:
 
