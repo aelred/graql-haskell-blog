@@ -1,4 +1,4 @@
-name:                haskell-graql-blog
+name:                graql-haskell-blog
 version:             0.1.0.0
 author:              Felix Chapman
 build-type:          Simple
